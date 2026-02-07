@@ -1,0 +1,52 @@
+<template>
+  <div class="min-h-screen">
+    <NuxtRouteAnnouncer />
+
+    <header class="border-b border-slate-800/60">
+      <div class="mx-auto flex h-16 max-w-5xl items-center px-6">
+        <nav class="w-full">
+          <span class="text-lg font-semibold tracking-wide">P2P Affiliate</span>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-5xl px-6 py-12">
+      <section class="mb-12">
+        <div
+          class="flex aspect-[16/7] w-full items-center justify-center rounded-2xl border border-dashed border-slate-700 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-slate-400"
+        >
+          <span class="text-sm uppercase tracking-[0.3em]">
+            Hero image placeholder
+          </span>
+        </div>
+      </section>
+
+      <section class="space-y-5">
+        <h1 class="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          P2P Affiliate Comparison
+        </h1>
+        <p class="text-base leading-relaxed text-slate-300 sm:text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          viverra finibus dictum. Vestibulum ante ipsum primis in faucibus orci
+          luctus et ultrices posuere cubilia curae; Aliquam sed congue erat.
+        </p>
+        <p class="text-base leading-relaxed text-slate-300 sm:text-lg">
+          Sed tincidunt, mauris ut commodo tincidunt, felis est accumsan tortor,
+          quis tristique magna orci sed risus. Integer tempus, arcu non varius
+          fermentum, est enim posuere nulla, eu finibus lacus odio at purus.
+        </p>
+        <p class="text-base leading-relaxed text-slate-300 sm:text-lg">
+          Aenean dignissim, lectus sit amet malesuada interdum, tellus orci
+          imperdiet dui, id finibus urna est at magna. Nulla facilisi. Praesent
+          in laoreet enim.
+        </p>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-800/60">
+      <div class="mx-auto max-w-5xl px-6 py-8 text-sm text-slate-400">
+        © 2026 P2P Affiliate. All rights reserved.
+      </div>
+    </footer>
+  </div>
+</template>
