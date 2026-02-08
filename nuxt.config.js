@@ -10,9 +10,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'P2P Affiliate',
+      title: 'P2P Insights',
       meta: [
-        { name: 'description', content: 'P2P affiliate comparison website.' }
+        { name: 'description', content: 'P2P insights comparison website.' }
       ]
     }
   },
