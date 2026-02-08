@@ -38,6 +38,8 @@
           is worth a serious look.
         </p>
       </article>
+
+      <PlatformPoll class="mt-12" />
     </main>
 
     <SiteFooter />

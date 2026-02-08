@@ -1,2 +1,6 @@
-User-Agent: *
-Disallow:
+# START nuxt-robots (indexable)
+User-agent: *
+Disallow: 
+
+Sitemap: https://p2pinsights.com/sitemap.xml
+# END nuxt-robots
