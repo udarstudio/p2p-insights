@@ -81,19 +81,19 @@ const voteFor = async (option) => {
 
 <template>
   <section
-    class="rounded-2xl border border-slate-800/60 bg-slate-950/40 p-6"
+    class="rounded-2xl border border-slate-200 bg-white/80 p-6 dark:border-slate-800/60 dark:bg-slate-950/40"
     aria-labelledby="poll-title"
   >
     <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
       <div>
-        <h2 id="poll-title" class="text-xl font-semibold text-white">
+        <h2 id="poll-title" class="text-xl font-semibold text-slate-900 dark:text-white">
           Vote for the best P2P platform
         </h2>
-        <p class="text-sm text-slate-400">
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Quick pulse check from readers. One vote per device.
         </p>
       </div>
-      <div class="text-sm text-slate-400">
+      <div class="text-sm text-slate-600 dark:text-slate-400">
         {{ totalVotes }} total votes
       </div>
     </div>
@@ -101,33 +101,33 @@ const voteFor = async (option) => {
     <div class="mt-5 space-y-3">
       <div
         v-if="isLoading"
-        class="rounded-xl border border-slate-800/80 bg-slate-950/60 p-4 text-sm text-slate-400"
+        class="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600 dark:border-slate-800/80 dark:bg-slate-950/60 dark:text-slate-400"
       >
         Loading votes...
       </div>
       <div
         v-else-if="loadError"
-        class="rounded-xl border border-rose-500/40 bg-rose-500/10 p-4 text-sm text-rose-200"
+        class="rounded-xl border border-rose-300 bg-rose-50 p-4 text-sm text-rose-700 dark:border-rose-500/40 dark:bg-rose-500/10 dark:text-rose-200"
       >
         {{ loadError }}
       </div>
       <div
         v-else-if="!pollOptions.length"
-        class="rounded-xl border border-slate-800/80 bg-slate-950/60 p-4 text-sm text-slate-400"
+        class="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600 dark:border-slate-800/80 dark:bg-slate-950/60 dark:text-slate-400"
       >
         No platforms are available yet.
       </div>
       <div
         v-for="option in pollOptions"
         :key="option.id"
-        class="rounded-xl border border-slate-800/80 bg-slate-950/60 p-4"
+        class="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800/80 dark:bg-slate-950/60"
       >
         <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div class="space-y-2">
-            <div class="text-sm font-semibold text-white">
+            <div class="text-sm font-semibold text-slate-900 dark:text-white">
               {{ option.label }}
             </div>
-            <div class="h-2 w-full overflow-hidden rounded-full bg-slate-800/70">
+            <div class="h-2 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800/70">
               <div
                 class="h-full rounded-full bg-emerald-400/80 transition-all"
                 :style="{
@@ -137,7 +137,7 @@ const voteFor = async (option) => {
                 }"
               ></div>
             </div>
-            <div class="text-xs text-slate-400">
+            <div class="text-xs text-slate-600 dark:text-slate-400">
               {{ option.votes }} votes ·
               {{
                 totalVotes ? Math.round((option.votes / totalVotes) * 100) : 0
@@ -146,7 +146,7 @@ const voteFor = async (option) => {
           </div>
 
           <button
-            class="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-slate-100 transition hover:border-slate-500 hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
+            class="rounded-full border border-slate-300 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-slate-700 transition hover:border-slate-400 hover:text-slate-900 disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-700 dark:text-slate-100 dark:hover:border-slate-500 dark:hover:text-white"
             :disabled="hasVoted"
             @click="voteFor(option)"
           >
