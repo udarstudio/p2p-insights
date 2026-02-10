@@ -211,6 +211,32 @@ useSeoMeta({
           to a diversified portfolio.
         </p>
       </section>
+
+      <section
+        class="rounded-2xl border border-emerald-300 bg-emerald-50 p-6 text-center dark:border-emerald-500/40 dark:bg-emerald-500/10"
+        aria-label="Bondora bonus call to action"
+      >
+        <h2 class="text-2xl font-semibold text-emerald-900 dark:text-emerald-100">
+          Claim Your EUR 5 New User Bonus
+        </h2>
+        <p class="mt-2 text-base leading-relaxed text-emerald-900/90 dark:text-emerald-100/90 sm:text-lg">
+          If you are ready to test Bondora Go &amp; Grow, start with the bonus
+          offer and let your first deposit begin compounding right away.
+        </p>
+        <div class="mt-6 flex justify-center">
+          <a
+            href="https://bondora.com/ref/BO5565499"
+            target="_blank"
+            rel="nofollow noopener"
+            class="inline-flex rounded-full bg-emerald-700 px-8 py-4 text-base font-semibold text-white transition hover:bg-emerald-800 dark:bg-emerald-400 dark:text-slate-900 dark:hover:bg-emerald-300"
+          >
+            Get EUR 5 Bonus
+          </a>
+        </div>
+        <p class="mt-6 text-xs text-emerald-900/70 dark:text-emerald-100/70">
+          Bonus availability and eligibility can vary by country and campaign period.
+        </p>
+      </section>
     </article>
   </main>
 </template>
