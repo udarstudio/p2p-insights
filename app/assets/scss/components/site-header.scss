@@ -17,7 +17,6 @@
 }
 
 .nav-platforms__toggle {
-  display: inline-flex;
   list-style: none;
 
   &::-webkit-details-marker {
@@ -26,7 +25,7 @@
 }
 
 @media (max-width: 767px) {
-  .nav-platforms[open] .platform-menu {
+  .nav-platforms__details[open] + .platform-menu {
     @include open-platform-menu;
   }
 }
