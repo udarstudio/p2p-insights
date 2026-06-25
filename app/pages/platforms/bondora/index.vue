@@ -4,10 +4,18 @@ useSeoMeta({
   description:
     'A practical 2026 review of Bondora Go & Grow: how it works, returns, liquidity, fees, risks, and who it is best for.'
 })
+
+const breadcrumbs = [
+  { label: 'Home', to: '/' },
+  { label: 'Platforms', to: '/platforms' },
+  { label: 'Bondora', to: '/platforms/bondora' }
+]
 </script>
 
 <template>
   <main class="mx-auto max-w-5xl px-6 py-12">
+    <AppBreadcrumbs :items="breadcrumbs" />
+
     <article class="space-y-10" aria-labelledby="bondora-review-title">
       <header class="space-y-3">
         <h1

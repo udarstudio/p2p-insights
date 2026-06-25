@@ -6,7 +6,7 @@ const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const publicDir = path.join(rootDir, 'public');
 const defaultSiteUrl = 'https://p2pinsights.com';
 const defaultEndpoint = 'https://api.indexnow.org/indexnow';
-const defaultPaths = ['/', '/platforms/bondora', '/platforms/mintos'];
+const defaultPaths = ['/', '/platforms', '/platforms/bondora', '/platforms/mintos'];
 const keyPattern = /^[A-Za-z0-9-]{8,128}$/;
 
 function parseArgs(argv) {

@@ -1,0 +1,42 @@
+@mixin open-platform-menu {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.platform-menu {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-0.25rem);
+  transition:
+    opacity 150ms ease,
+    transform 150ms ease,
+    visibility 150ms ease;
+}
+
+.nav-platforms__toggle {
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-platforms__details[open] + .platform-menu {
+    @include open-platform-menu;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-platforms {
+    &:hover,
+    &:focus-within {
+      .platform-menu {
+        @include open-platform-menu;
+      }
+    }
+  }
+}
