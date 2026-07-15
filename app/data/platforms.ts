@@ -48,6 +48,20 @@ export const platforms: PlatformListing[] = [
       { label: 'Watch', value: 'Lower return ceiling and platform conditions.' }
     ],
     reviewCta: 'Read Bondora review'
+  },
+  {
+    label: 'Robo.cash',
+    name: 'Robo.cash',
+    to: '/platforms/robocash',
+    rank: 3,
+    tagline: 'Best for a fully automated, low-maintenance P2P approach.',
+    summary:
+      'A hands-off loan-investing platform with automated portfolios, an established repayment track record, and slower bank-transfer cash movement.',
+    facts: [
+      { label: 'Best for', value: 'Investors who want to set a portfolio and leave it running.' },
+      { label: 'Watch', value: 'No manual loan picking, 2–3 day bank transfers, and group concentration.' }
+    ],
+    reviewCta: 'Read Robo.cash review'
   }
 ]
 
