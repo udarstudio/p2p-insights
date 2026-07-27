@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
+    "build:sites": "npm run build && node scripts/prepare-sites.mjs",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "indexnow": "node scripts/submit-indexnow.mjs",

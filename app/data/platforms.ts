@@ -22,10 +22,24 @@ export type PlatformListing = {
 
 export const platforms: PlatformListing[] = [
   {
+    label: 'IUVO',
+    name: 'IUVO Group',
+    to: '/platforms/iuvo',
+    rank: 1,
+    tagline: 'Best returns in our hands-on experience.',
+    summary:
+      'A flexible loan-receivables marketplace with manual investing, Auto Assign, a secondary market, and the strongest returns we have seen across the platforms covered here.',
+    facts: [
+      { label: 'Best for', value: 'Return-focused investors who want portfolio control.' },
+      { label: 'Watch', value: 'Occasional cart loading friction, slower bank transfers, and originator risk.' }
+    ],
+    reviewCta: 'Read IUVO review'
+  },
+  {
     label: 'Mintos',
     name: 'Mintos',
     to: '/platforms/mintos',
-    rank: 1,
+    rank: 2,
     tagline: 'Best overall for investors who want choice and control.',
     summary:
       'A broader investing platform with loans, bonds, real estate, ETFs, Smart Cash, and crypto ETPs from one account.',
@@ -39,7 +53,7 @@ export const platforms: PlatformListing[] = [
     label: 'Bondora',
     name: 'Bondora Go & Grow',
     to: '/platforms/bondora',
-    rank: 2,
+    rank: 3,
     tagline: 'Best for simple, hands-off P2P exposure.',
     summary:
       'A passive Go & Grow product for investors who want simple deposits, daily returns, and straightforward withdrawals.',
@@ -53,7 +67,7 @@ export const platforms: PlatformListing[] = [
     label: 'Robo.cash',
     name: 'Robo.cash',
     to: '/platforms/robocash',
-    rank: 3,
+    rank: 4,
     tagline: 'Best for a fully automated, low-maintenance P2P approach.',
     summary:
       'A hands-off loan-investing platform with automated portfolios, an established repayment track record, and slower bank-transfer cash movement.',
