@@ -27,6 +27,11 @@ const breadcrumbs = [
         <p class="text-lg text-slate-700 dark:text-slate-300">
           Loans, bonds, real estate, ETFs, Smart Cash, crypto, fees &amp; risks
         </p>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
+          Based on hands-on use and official platform information
+          <span aria-hidden="true"> · </span>
+          <time datetime="2026-07-28">July 28, 2026</time>
+        </p>
       </header>
 
       <section class="space-y-3">
@@ -299,6 +304,20 @@ const breadcrumbs = [
         </div>
         <p class="mt-6 text-xs text-emerald-900/70 dark:text-emerald-100/70">
           Product availability, terms, and eligibility can vary by country.
+        </p>
+      </section>
+
+      <section class="rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900/50" aria-label="Mintos research sources">
+        <h2 class="text-xl font-semibold text-slate-900 dark:text-white">
+          Research sources
+        </h2>
+        <p class="mt-2 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+          Platform details were checked against Mintos&rsquo;s official
+          <a href="https://www.mintos.com/en/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">platform overview</a>,
+          <a href="https://www.mintos.com/en/investing-in-loans/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">loan-investing guide</a>,
+          <a href="https://www.mintos.com/en/how-it-works/fees/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">fee schedule</a>,
+          <a href="https://www.mintos.com/en/security/investor-protection/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">investor-protection overview</a>, and
+          <a href="https://www.mintos.com/en/security/investing-and-risk/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">investment-risk guidance</a>.
         </p>
       </section>
     </article>
