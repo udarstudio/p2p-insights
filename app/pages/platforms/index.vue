@@ -4,7 +4,7 @@ import { platforms } from '~/data/platforms'
 useSeoMeta({
   title: 'Top P2P Platforms | P2P Insights',
   description:
-    'A ranked list of top P2P investing platforms including Mintos and Bondora Go & Grow, with concise notes and review links.'
+    'A ranked list of top P2P investing platforms including IUVO, Mintos, Bondora Go & Grow, and Robo.cash, with concise notes and review links.'
 })
 
 const breadcrumbs = [

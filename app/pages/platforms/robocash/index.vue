@@ -27,6 +27,11 @@ const breadcrumbs = [
         <p class="text-lg text-slate-700 dark:text-slate-300">
           Fully automated P2P investing: simple to run, slower to move cash
         </p>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
+          Based on hands-on use and official platform information
+          <span aria-hidden="true"> · </span>
+          <time datetime="2026-07-28">July 28, 2026</time>
+        </p>
       </header>
 
       <section class="space-y-3">

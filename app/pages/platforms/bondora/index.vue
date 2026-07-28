@@ -27,6 +27,11 @@ const breadcrumbs = [
         <p class="text-lg text-slate-700 dark:text-slate-300">
           How it works, returns, liquidity, fees &amp; risks
         </p>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
+          Based on hands-on use and official platform information
+          <span aria-hidden="true"> · </span>
+          <time datetime="2026-07-28">July 28, 2026</time>
+        </p>
       </header>
 
       <section class="space-y-3">
@@ -243,6 +248,20 @@ const breadcrumbs = [
         </div>
         <p class="mt-6 text-xs text-emerald-900/70 dark:text-emerald-100/70">
           Bonus availability and eligibility can vary by country and campaign period.
+        </p>
+      </section>
+
+      <section class="rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900/50" aria-label="Bondora research sources">
+        <h2 class="text-xl font-semibold text-slate-900 dark:text-white">
+          Research sources
+        </h2>
+        <p class="mt-2 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+          Platform details were checked against Bondora&rsquo;s official
+          <a href="https://help.bondora.com/hc/en-us/articles/15806667749265-What-is-Go-Grow" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">Go &amp; Grow overview</a>,
+          <a href="https://help.bondora.com/hc/en-us/articles/14816909107217-What-are-the-withdrawal-fees" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">withdrawal-fee guidance</a>,
+          <a href="https://help.bondora.com/hc/en-us/articles/14721780341137-What-are-partial-payouts" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">partial-payout explanation</a>,
+          <a href="https://help.bondora.com/hc/en-us/articles/14721045979281-How-do-I-add-money-to-my-Bondora-account" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">deposit guidance</a>, and
+          <a href="https://help.bondora.com/hc/en-us/articles/14790835254929-What-are-the-risks-associated-with-Go-Grow" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">Go &amp; Grow risk guidance</a>.
         </p>
       </section>
     </article>
