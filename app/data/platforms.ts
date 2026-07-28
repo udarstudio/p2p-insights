@@ -22,24 +22,10 @@ export type PlatformListing = {
 
 export const platforms: PlatformListing[] = [
   {
-    label: 'IUVO',
-    name: 'IUVO Group',
-    to: '/platforms/iuvo',
-    rank: 1,
-    tagline: 'Best returns in our hands-on experience.',
-    summary:
-      'A flexible loan-receivables marketplace with manual investing, Auto Assign, a secondary market, and the strongest returns we have seen across the platforms covered here.',
-    facts: [
-      { label: 'Best for', value: 'Return-focused investors who want portfolio control.' },
-      { label: 'Watch', value: 'Occasional cart loading friction, slower bank transfers, and originator risk.' }
-    ],
-    reviewCta: 'Read IUVO review'
-  },
-  {
     label: 'Mintos',
     name: 'Mintos',
     to: '/platforms/mintos',
-    rank: 2,
+    rank: 1,
     tagline: 'Best overall for investors who want choice and control.',
     summary:
       'A broader investing platform with loans, bonds, real estate, ETFs, Smart Cash, and crypto ETPs from one account.',
@@ -48,6 +34,20 @@ export const platforms: PlatformListing[] = [
       { label: 'Watch', value: 'More complexity and product-specific risk.' }
     ],
     reviewCta: 'Read Mintos review'
+  },
+  {
+    label: 'IUVO',
+    name: 'IUVO Group',
+    to: '/platforms/iuvo',
+    rank: 2,
+    tagline: 'Best returns in our hands-on experience.',
+    summary:
+      'A flexible loan-receivables marketplace with manual investing, Auto Assign, a secondary market, and the strongest returns we have seen across the platforms covered here.',
+    facts: [
+      { label: 'Best for', value: 'Return-focused investors who want portfolio control.' },
+      { label: 'Watch', value: 'Occasional cart loading friction, slower bank transfers, and originator risk.' }
+    ],
+    reviewCta: 'Read IUVO review'
   },
   {
     label: 'Bondora',
