@@ -34,11 +34,6 @@ const breadcrumbs = [
         <p class="text-lg text-slate-700 dark:text-slate-300">
           Excellent returns, useful portfolio control, and a few practical rough edges
         </p>
-        <p class="text-sm text-slate-600 dark:text-slate-400">
-          Based on hands-on use and official platform information
-          <span aria-hidden="true"> · </span>
-          <time datetime="2026-07-27">July 27, 2026</time>
-        </p>
       </header>
 
       <section class="space-y-3">
@@ -266,46 +261,6 @@ const breadcrumbs = [
         </p>
       </section>
 
-      <section
-        class="rounded-2xl border border-emerald-300 bg-emerald-50 p-6 text-center dark:border-emerald-500/40 dark:bg-emerald-500/10"
-        aria-label="IUVO Group call to action"
-      >
-        <h2 class="text-2xl font-semibold text-emerald-900 dark:text-emerald-100">
-          Explore IUVO Group
-        </h2>
-        <p class="mt-2 text-base leading-relaxed text-emerald-900/90 dark:text-emerald-100/90 sm:text-lg">
-          Start small, compare originators, and test the complete deposit,
-          investing, and withdrawal flow before committing a larger amount.
-        </p>
-        <div class="mt-6 flex justify-center">
-          <a
-            href="https://iuvo-group.com/en/"
-            target="_blank"
-            rel="nofollow noopener"
-            class="inline-flex rounded-full bg-emerald-700 px-8 py-4 text-base font-semibold text-white transition hover:bg-emerald-800 dark:bg-emerald-400 dark:text-slate-900 dark:hover:bg-emerald-300"
-          >
-            Visit IUVO Group
-          </a>
-        </div>
-        <p class="mt-6 text-xs text-emerald-900/70 dark:text-emerald-100/70">
-          Expected returns are not guaranteed. Availability and terms can vary by country.
-        </p>
-      </section>
-
-      <section class="rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900/50" aria-label="IUVO Group research sources">
-        <h2 class="text-xl font-semibold text-slate-900 dark:text-white">
-          Research sources
-        </h2>
-        <p class="mt-2 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-          Platform details were checked against IUVO&rsquo;s official
-          <a href="https://iuvo-group.com/en/how-it-works/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">how-it-works overview</a>,
-          <a href="https://iuvo-group.com/en/faq/investing/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">investing FAQ</a>,
-          <a href="https://iuvo-group.com/en/faq/auto-invest/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">Auto Assign FAQ</a>,
-          <a href="https://iuvo-group.com/en/faq/withdraw/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">withdrawal guidance</a>,
-          <a href="https://iuvo-group.com/en/iuvo-clubs/" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">fees and processing table</a>, and
-          <a href="https://iuvo-group.com/wp-content/uploads/2026/04/Final_2026.04.22_User_Agreement_ENG.pdf" target="_blank" rel="noopener noreferrer" class="font-medium underline underline-offset-2 hover:text-slate-950 dark:hover:text-white">April 2026 User Agreement</a>.
-        </p>
-      </section>
     </article>
   </main>
 </template>
